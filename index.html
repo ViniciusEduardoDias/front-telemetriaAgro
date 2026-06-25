@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>TELA PRINCIPAL</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="content">
+      <header class="topbar">
+        <!-- Máquina -->
+        <div class="card machine">
+          <div class="icon">
+            <img
+              style="width: 3em"
+              src="./images/maquinabranco.svg"
+              alt="Máquina"
+            />
+          </div>
+
+          <div class="info">
+            <span class="label">MÁQUINA</span>
+            <strong>JohnDeere 4730</strong>
+          </div>
+        </div>
+
+        <!-- Operador -->
+        <div class="card operator">
+          <div class="icon">
+            <img
+              style="width: 2em"
+              src="./images/userbranco.svg"
+              alt="Operador"
+            />
+          </div>
+
+          <div class="info">
+            <span class="label">OPERADOR</span>
+            <strong>Wellington</strong>
+          </div>
+        </div>
+
+        <!-- Rede -->
+        <div class="card network">
+          <div class="icon">
+            <img style="width: 2em" src="./images/redebranco.svg" alt="Sinal" />
+          </div>
+
+          <strong>4G</strong>
+        </div>
+
+        <!-- Tempo e Data -->
+        <div class="card status">
+          <div class="status-item">
+            <img
+              style="width: 1.4em"
+              src="./images/horimetrobranco.svg"
+              alt="Tempo"
+            />
+            <span>00008:37</span>
+          </div>
+
+          <div class="status-item">
+            <img src="./images/agenda.svg" style="width: 1.4em" alt="Data" />
+            <div class="date-info">
+              <span>24/05/2024</span>
+              <span>14:45</span>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!--APLICAÇÃO DA BOMBA-->
+      <main>
+        <!--SESSÃO DE APLICAÇÃO IMAGEM DA BOMBA-->
+
+        <section id="sectionPump" class="cardLarge">BOMBA</section>
+
+        <!--SEÇÃO DE INFORMAÇÕES-->
+
+        <section id="infoPump" class="cardLarge">
+          <!--PRESSÃO DA CALDA-->
+          <div class="cardSmall">
+            <div class="titleCardSmall">
+              <img src="images/pressao.svg" alt="" />
+              <h3>PRESSÃO DA CALDA</h3>
+            </div>
+            <div class="value">
+              <p>3,2</p>
+              <span>bar</span>
+            </div>
+
+            <button class="btn-register">
+              <img src="./images/relatorio.svg" />
+              REGISTROS
+            </button>
+          </div>
+
+          <!--PRESSÃO DO REFRIGERANTE-->
+          <div class="cardSmall">
+            <div class="titleCardSmall">
+              <img src="images/pressao.svg" alt="" />
+              <h3>PRESSÃO DO REFRIGERANTE</h3>
+            </div>
+            <div class="value">
+              <p>3,2</p>
+              <span>bar</span>
+            </div>
+
+            <button class="btn-register">
+              <img src="./images/relatorio.svg" />
+              REGISTROS
+            </button>
+          </div>
+
+          <!--PRESSÃO DO ÓLEO-->
+          <div class="cardSmall">
+            <div class="titleCardSmall">
+              <img src="images/pressao.svg" alt="" />
+              <h3>PRESSÃO DO ÓLEO</h3>
+            </div>
+            <div class="value">
+              <p>3,2</p>
+              <span>bar</span>
+            </div>
+
+            <button class="btn-register">
+              <img src="./images/relatorio.svg" />
+              REGISTROS
+            </button>
+          </div>
+
+          <!--TEMPERATURA DA CALDA-->
+          <div class="cardSmall">
+            <div class="titleCardSmall">
+              <img src="images/temperatura.svg" alt="icone temperatura" />
+              <h3>TEMPERATURA DA CALDA</h3>
+            </div>
+            <div class="value">
+              <p>3,2</p>
+              <span>°C</span>
+            </div>
+
+            <button class="btn-register">
+              <img src="./images/relatorio.svg" />
+              REGISTROS
+            </button>
+          </div>
+
+          <!--TEMPERATURA DO REFRIGERANTE-->
+          <div class="cardSmall">
+            <div class="titleCardSmall">
+              <img src="images/temperatura.svg" alt="icone de temperatura" />
+              <h3>TEMPERATURA DO REFRIG.</h3>
+            </div>
+            <div class="value">
+              <p>3,2</p>
+              <span>°C</span>
+            </div>
+
+            <button class="btn-register">
+              <img src="./images/relatorio.svg" />
+              REGISTROS
+            </button>
+          </div>
+
+          <!--TEMPERATURA DO ÓLEO-->
+          <div class="cardSmall">
+            <div class="titleCardSmall">
+              <img src="images/temperatura.svg" alt="icone de temperatura" />
+              <h3>TEMPERATURA DO ÓLEO</h3>
+            </div>
+            <div class="value">
+              <p>3,2</p>
+              <span>°C</span>
+            </div>
+
+            <button class="btn-register">
+              <img src="./images/relatorio.svg" />
+              REGISTROS
+            </button>
+          </div>
+
+          <!--ROTAÇÃO-->
+          <div class="cardSmall">
+            <div class="titleCardSmall">
+              <img src="images/rotacao.svg" alt="" />
+              <h3>ROTAÇÃO DA BOMBA</h3>
+            </div>
+            <div class="value">
+              <p>4800</p>
+              <span>RPM</span>
+            </div>
+
+            <button class="btn-register">
+              <img src="./images/relatorio.svg" />
+              REGISTROS
+            </button>
+          </div>
+
+          <!--VAZÃO-->
+          <div class="cardSmall">
+            <div class="titleCardSmall">
+              <img src="images/vazao.svg" alt="" />
+              <h3>VAZÃO</h3>
+            </div>
+            <div class="value">
+              <p>563</p>
+              <span>L/min</span>
+            </div>
+
+            <button class="btn-register">
+              <img src="./images/relatorio.svg" />
+              REGISTROS
+            </button>
+          </div>
+
+          <!--STATUS-->
+          <div id="cardStatus" class="cardSmall">
+            <div class="titleCardSmall">
+              <h3>STATUS</h3>
+            </div>
+            <div class="value">
+              <p>PARADA</p>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <div><img style="height: 20px" src="images/agrosapienslogo.svg" /></div>
+        <div><span style="font-size: small">Powered by ThingsBoard</span></div>
+      </footer>
+    </div>
+  </body>
+</html>
